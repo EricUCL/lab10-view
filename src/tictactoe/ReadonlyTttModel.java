@@ -13,16 +13,16 @@ public interface ReadonlyTttModel {
   Player getTurn();
 
   /**
-   * Return whether the game is over. The game is over when either the board is full, or
-   * one player has won.
+   * Return whether the game is over. The game is over when either the board is full, or one player
+   * has won.
    *
    * @return true if the game is over, false otherwise
    */
   boolean isGameOver();
 
   /**
-   * Return the winner of the game, or {@code null} if there is no winner. If the game is not
-   * over, returns {@code null}.
+   * Return the winner of the game, or {@code null} if there is no winner. If the game is not over,
+   * returns {@code null}.
    *
    * @return the winner, or null if there is no winner
    */

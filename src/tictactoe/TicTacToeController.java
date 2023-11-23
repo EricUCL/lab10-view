@@ -7,8 +7,8 @@ package tictactoe;
 public interface TicTacToeController {
 
   /**
-   * Execute a single game of TicTacToe given a TicTacToe Model. When the game is over,
-   * the playGame method ends.
+   * Execute a single game of TicTacToe given a TicTacToe Model. When the game is over, the playGame
+   * method ends.
    *
    * @param m a non-null TicTacToe Model
    */

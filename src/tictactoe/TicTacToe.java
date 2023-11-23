@@ -1,9 +1,9 @@
 package tictactoe;
 
 /**
- * A single game of Tic Tac Toe, played on a three-by-three grid with two players,
- * with the object of the game to achieve three markers in a row either vertically,
- * horizontally, or diagonally. {@link Player} X goes first.
+ * A single game of Tic Tac Toe, played on a three-by-three grid with two players, with the object
+ * of the game to achieve three markers in a row either vertically, horizontally, or diagonally.
+ * {@link Player} X goes first.
  */
 public interface TicTacToe extends ReadonlyTttModel {
 
@@ -13,9 +13,8 @@ public interface TicTacToe extends ReadonlyTttModel {
    * @param r the row of the intended move
    * @param c the column of the intended move
    * @throws IllegalArgumentException if the space is occupied or the position is otherwise invalid
-   * @throws IllegalStateException if the game is over
+   * @throws IllegalStateException    if the game is over
    */
   void move(int r, int c);
-
 
 }
