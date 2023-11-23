@@ -1,8 +1,8 @@
 import static org.junit.Assert.assertEquals;
 
-import tictactoe.TicTacToeControllerImpl;
 import org.junit.Before;
 import org.junit.Test;
+import tictactoe.TicTacToeControllerImpl;
 
 /**
  * Unit tests for {@link TicTacToeControllerImpl}.

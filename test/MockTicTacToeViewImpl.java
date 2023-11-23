@@ -6,6 +6,7 @@ import tictactoe.TicTacToeView;
  */
 public class MockTicTacToeViewImpl implements TicTacToeView {
   public int refreshCount = 0;
+
   @Override
   public void addClickListener(TicTacToeController listener) {
 
