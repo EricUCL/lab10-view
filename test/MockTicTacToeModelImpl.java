@@ -49,6 +49,7 @@ public class MockTicTacToeModelImpl implements TicTacToe {
     return null;
   }
 
+  @Override
   public Player[][] getBoard() {
     Player[][] ret = new Player[3][3];
     return ret;
